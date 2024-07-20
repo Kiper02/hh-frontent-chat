@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chat</title>
+
+        <link href="/static/main.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapp">
+                <h3>Online-chat</h3>
+                <a href="#"><h3>Выйти</h3></a>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="users">
+                <ul class="users-wrapp" id="list_users">
+                </ul>
+            </section>
+
+            <section class="chat">
+                <ul class="chat-wrapp" id="list_messages"></ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <input type="text" class="input_message"/>
+            <button class="btn">Отправить</button>
+        </footer>
+    
+    <script type="module" src="./index.js"></script>
+    </body>
+</html>
